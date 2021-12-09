@@ -1,5 +1,7 @@
 # PlayeRank
 
+https://colab.research.google.com/drive/1CF7G1xvKaFp5bOc9ZZ5bp0dXdR-cWHZg
+
 PlayeRank, a data-driven framework that offers a principled multi-dimensional and role-aware evaluation of the performance of soccer players. 
 
 Playerank is designed to work with [soccer-logs](https://www.nature.com/articles/s41597-019-0247-7), in which a match consists of a sequence of events encoded as a tuple: `id`, `type`, `position`, `timestamp`,where `id` is the identifer of the player that originated/refers to this event, `type` is the event type (i.e., passes, shots, goals, tackles, etc.), `position` and `timestamp` denote the spatio-temporal coordinates of the event over the soccer field. PlayeRank assumes that soccer-logs are stored into a database, which is updated with new events after each soccer match.
